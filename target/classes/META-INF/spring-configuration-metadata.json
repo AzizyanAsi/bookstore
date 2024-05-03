@@ -1,0 +1,107 @@
+{
+  "groups": [
+    {
+      "name": "application.common",
+      "type": "net.bookstore.common.config.AppConfig",
+      "sourceType": "net.bookstore.common.config.AppConfig"
+    },
+    {
+      "name": "application.cors",
+      "type": "net.bookstore.security.configs.CorsConfig",
+      "sourceType": "net.bookstore.security.configs.CorsConfig"
+    },
+    {
+      "name": "application.jwt",
+      "type": "net.bookstore.security.jwt.common.JwtConfig",
+      "sourceType": "net.bookstore.security.jwt.common.JwtConfig"
+    },
+    {
+      "name": "application.storage",
+      "type": "net.bookstore.common.config.StorageConfig",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.common.app-country-code",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.AppConfig"
+    },
+    {
+      "name": "application.common.app-default-language",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.AppConfig"
+    },
+    {
+      "name": "application.common.version",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.AppConfig"
+    },
+    {
+      "name": "application.jwt.access-secret-key",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.security.jwt.common.JwtConfig"
+    },
+    {
+      "name": "application.jwt.access-token-expiration-after-minutes",
+      "type": "java.lang.Integer",
+      "sourceType": "net.bookstore.security.jwt.common.JwtConfig"
+    },
+    {
+      "name": "application.jwt.refresh-secret-key",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.security.jwt.common.JwtConfig"
+    },
+    {
+      "name": "application.jwt.refresh-token-expiration-after-days",
+      "type": "java.lang.Integer",
+      "sourceType": "net.bookstore.security.jwt.common.JwtConfig"
+    },
+    {
+      "name": "application.storage.allowed-extensions",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    },
+    {
+      "name": "application.storage.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    },
+    {
+      "name": "application.storage.document-allowed-content-types",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    },
+    {
+      "name": "application.storage.image-allowed-content-types",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    },
+    {
+      "name": "application.storage.profile-picture-directory",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    },
+    {
+      "name": "application.storage.resume-directory",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    },
+    {
+      "name": "application.storage.thumbnail-directory",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    },
+    {
+      "name": "application.storage.url-template",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    },
+    {
+      "name": "application.storage.working-sample-directory",
+      "type": "java.lang.String",
+      "sourceType": "net.bookstore.common.config.StorageConfig"
+    }
+  ],
+  "hints": []
+}
