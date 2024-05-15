@@ -75,7 +75,6 @@ public class BookController {
     }
 
 
-    //nayi regstri vra authhorization chka bayc searchi ka nay vonc a arac ste saxin dir
     @GetMapping("list")
     public Page<BookResponse> searchFilteredBooks(@RequestParam(defaultValue = "1") int page,
                                                   @RequestParam(defaultValue = "10") int pageSize, @RequestParam(defaultValue = "title") String sortBy,
